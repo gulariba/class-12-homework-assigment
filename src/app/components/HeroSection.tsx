@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-[#043873] flex flex-col-reverse lg:flex-row items-center px-4 lg:px-16 xl:px-32 py-10 lg:py-20 gap-10 lg:gap-0">
+    <section className="w-full bg-[#043873] flex flex-col-reverse lg:flex-row items-center px-4 lg:px-16 xl:px-32 py-8 lg:py-16 gap-10 lg:gap-0">
       {/* Left Section */}
-      <div className="text-center lg:text-left max-w-md lg:max-w-lg xl:max-w-2xl flex-1">
+      <div className="text-center lg:text-left max-w-md lg:max-w-lg xl:max-w-2xl flex-1 mb-8 lg:mb-0">
         <h2 className="font-bold text-2xl md:text-4xl lg:text-5xl text-white leading-tight">
           Get More Done with Whitepace
         </h2>
@@ -18,8 +18,8 @@ const Hero = () => {
       </div>
 
       {/* Right Section */}
-      <div className="w-full lg:w-1/3 xl:w-1/4">
-        <div className="w-full h-64 md:h-80 lg:h-[549px] bg-[#C4DEFD] rounded-lg shadow-md"></div>
+      <div className="w-full lg:w-1/3 xl:w-1/4 mt-8 lg:mt-0">
+        <div className="w-full h-56 md:h-72 lg:h-[400px] bg-[#C4DEFD] rounded-lg shadow-md"></div>
       </div>
     </section>
   );
