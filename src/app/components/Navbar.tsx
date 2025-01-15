@@ -14,7 +14,7 @@ const Navbar = () => {
 		<nav className="bg-[#043873] py-4">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-[92px]">
 				<div>
-					<Image src="/logo.png" alt="logo" width={191} height={34} />
+					<Image src="/Logo.png" alt="logo" width={191} height={34} />
 				</div>
 				<div className="hidden lg:flex justify-between items-center">
 					<ul className="text-[18px] font-semibold leading-[23px] flex space-x-8 text-white">
