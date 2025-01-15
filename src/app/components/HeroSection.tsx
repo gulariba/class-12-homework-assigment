@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       {/* Right Section */}
-      <div className="w-full lg:w-1/3 xl:w-1/4">
+      <div className="w-full lg:w-2/3 xl:w-2/4">
         <div className="w-full h-56 md:h-72 lg:h-[400px] bg-[#C4DEFD] rounded-lg shadow-md"></div>
       </div>
     </section>
